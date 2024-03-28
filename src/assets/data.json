@@ -3,6 +3,10 @@
     "title": "Steve Rousseau - Software Engineer",
     "image": "/images/profile.jpg"
   },
+  "footer": {
+    "giticon": "/icons/github.svg",
+    "linkedInicon": "/icons/linkedin.svg"
+  },
   "jsProjects": [
     { 
       "id": 0, 

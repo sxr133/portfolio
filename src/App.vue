@@ -1,5 +1,5 @@
 <template>
-  <div id="content" class="container">
+  <div id="content">
     <navbar :pages="pages" :active-page="activePage" :nav-Link-click="(index) => activePage = index"></navbar>
     <div class="header">
       <h1>{{ header.title }}</h1>
@@ -9,6 +9,11 @@
     <skills-content :page="pages[activePage]" :activePage="activePage" :skills="skills"></skills-content>
     <project-content :page="pages[activePage]" :activePage="activePage" :jsProjects="jsProjects" :pythonProjects="pythonProjects"></project-content>
   </div>
+  <div class="footer">
+      <img :src="footer.giticon" title="GIT Repo" alt="GIT Repo"> 
+      <img :src="footer.linkedInicon" title="LinkedIn Profile" alt="LinkedIn Profile"> 
+    </div>
+
 </template>
 
 <script>
@@ -32,7 +37,8 @@ export default {
       jsProjects: data.jsProjects,
       pythonProjects: data.pythonProjects,
       pages: data.pages,
-      skills: data.skills
+      skills: data.skills,
+      footer: data.footer
     }
   }
 }
