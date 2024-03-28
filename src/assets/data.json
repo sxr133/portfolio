@@ -4,17 +4,88 @@
     "image": "/images/profile.jpg"
   },
   "jsProjects": [
-    { "id": 0, "title": "Guess Word", "description": "A game where you can win 'fake' money. it's close to 'Wheel of Fortune'." },
-    { "id": 1, "title": "Whac-a-Mole", "description": "A game where you must click on the mole with the click of the mouse." },
-    { "id": 2, "title": "Space Invaders", "description": "A game where you must shoot aliens.  Usage of the arrow keys." },
-    { "id": 3, "title": "Rock-Paper-Scissors", "description": "A game where you play agains the computer." },
-    { "id": 4, "title": "Memory Game", "description": "A game where you must find matching cards that are hidden." },
-    { "id": 5, "title": "Connect Four", "description": "A game that resembles to the game you played when you were a child, connect four dots in a row." },
-    { "id": 6, "title": "2d Breakout", "description": "A game where you must break down blocks using the left and right arrow keys to direct the ball." },
-    { "id": 7, "title": "Frogger", "description": "A game where you must direct your frog from a starting point to the end point.  You must avoid the traffic and the water." }
+    { 
+      "id": 0, 
+      "title": "Guess Word", 
+      "description": "A game where you can win 'fake' money. it's close to 'Wheel of Fortune'.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/Projects/tree/main/WordGuess",
+      "demoicon": "/icons/javascript.svg",
+      "demoAddress":"https://guessword-js.netlify.app"
+    },
+    { 
+      "id": 1, 
+      "title": "Whac-a-Mole", 
+      "description": "A game where you must click on the mole with the click of the mouse.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/JavaScript/tree/main/Whac_a_Mole",
+      "demoicon": "/icons/javascript.svg",
+      "demoAddress":"https://whac-a-mole-in-js.netlify.app"
+    },
+    { 
+      "id": 2, 
+      "title": "Space Invaders", 
+      "description": "A game where you must shoot aliens.  Usage of the arrow keys.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/JavaScript/tree/main/Space_Invaders",
+      "demoicon": "/icons/javascript.svg", 
+      "demoAddress":"https://space-invaders-in-js.netlify.app"
+    },
+    { 
+      "id": 3, 
+      "title": "Rock-Paper-Scissors", 
+      "description": "A game where you play against the computer with the use of buttons.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/JavaScript/tree/main/Rock_Paper_Scissors",
+      "demoicon": "/icons/javascript.svg", 
+      "demoAddress":"https://rock-paper-scissors-in-js.netlify.app"
+    },
+    { 
+      "id": 4, 
+      "title": "Memory Game", 
+      "description": "A game where you must find matching cards that are hidden.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/JavaScript/tree/main/memory_game",
+      "demoicon": "/icons/javascript.svg", 
+      "demoAddress":"https://memory-game-in-js.netlify.app"
+    },
+    { 
+      "id": 5, 
+      "title": "Connect Four", 
+      "description": "A game that resembles to the game you played when you were a child, connect four dots in a row.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/JavaScript/tree/main/Connect_Four",
+      "demoicon": "/icons/javascript.svg",
+      "demoAddress":"https://connect-four-in-js.netlify.app"
+    },
+    { 
+      "id": 6, 
+      "title": "2d Breakout", 
+      "description": "A game where you must break down blocks using the keyboard left and right arrow keys to direct the ball towards the wall.", 
+      "giticon": "/icons/github.svg",
+      "repoAddress": "https://github.com/sxr133/JavaScript/tree/main/2D_Breakout", 
+      "demoicon": "/icons/javascript.svg",
+      "demoAddress":"https://2d-breakout-in-js.netlify.app"
+    }, 
+    { 
+      "id": 7, 
+      "title": "Frogger", 
+      "description": "A game where you must direct your frog from a starting point to the end point.  You must avoid the traffic and the water.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/JavaScript/tree/main/Frogger",
+      "demoicon": "/icons/javascript.svg", 
+      "demoAddress":"https://frogger-in-js.netlify.app"
+    }
   ],
-  "pythonProjects": [
-    { "id": 0, "title": "Virtual Island Survival", "description": "Text game via console where you try to survive on an island with coconuts and 1 goat and few rocks." }
+  "pythonProjects": 
+  [
+    { 
+      "id": 0, 
+      "title": "Virtual Island Survival", 
+      "description": "Text game via console where you try to survive on an island with coconuts and 1 goat and few rocks.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/Virtual_Island_Survival"
+    }
   ],
   "pages": [
     { "link": { "text": "Home", "url": "index.html" }, "pageTitle": "", "content": "" },

@@ -1,8 +1,7 @@
 <template>
-
     <div v-if="activePage === 2">
+      <h2>{{ page.pageTitle }}</h2>
       <!-- Show skills only if Skills page is active -->
-      <h1>{{ page.pageTitle }}</h1>
       <div class="skills-section">
         <div v-for="(skill, index) in skills" :key="index" class="skill">
           <h3>{{ skill.title }}</h3>
