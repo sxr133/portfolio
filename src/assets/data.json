@@ -112,7 +112,7 @@
     { 
       "id": 5, 
       "title": "Connect Four", 
-      "description": "A game that resembles to the game you played when you were a child, connect four dots in a row.", 
+      "description": "A game that resembles to the game you played when you were a child.", 
       "giticon": "/icons/github.svg", 
       "repoAddress": "https://github.com/sxr133/JavaScript/tree/main/Connect_Four",
       "demoicon": "/icons/javascript.svg",
