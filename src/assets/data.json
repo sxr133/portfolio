@@ -1,13 +1,69 @@
 {
   "header": {
-    "title": "Steve Rousseau - Software Engineer",
-    "image": "/images/profile.jpg"
+    "title": "Steve Rousseau",
+    "image": "/images/profile1.png"
   },
-  "footer": {
-    "giticon": "/icons/github.svg",
-    "linkedInicon": "/icons/linkedin.svg"
+  "skills": 
+  {
+    "pageTitle": "Skills", 
+    "content":
+    [
+      { 
+        "id": 1, 
+        "title": "Python", 
+        "description": "I have a strong proficiency in Python and use it in many of my projects." 
+      },
+      { 
+        "id": 2, 
+        "title": "HTML", 
+        "description": "I have a solid understanding of HTML and use it as the backbone of my web projects." 
+      },
+      { 
+        "id": 3, 
+        "title": "CSS", 
+        "description": "I use CSS to create beautiful, responsive web designs." 
+      },
+      { 
+        "id": 4, 
+        "title": "JavaScript", 
+        "description": "I use JavaScript to create dynamic, interactive web applications." 
+      },
+      { 
+        "id": 5, 
+        "title": "Vue JS", 
+        "description": "I use Vue JS framework for building user interfaces." 
+      },
+      { 
+        "id": 6, 
+        "title": "Java", 
+        "description": "I am skilled in Java programming language and have experience in developing applications using Java." 
+      },
+      { 
+        "id": 7, 
+        "title": "Git", 
+        "description": "Proficient in Git version control system." 
+      },
+      { 
+        "id": 8, 
+        "title": "Command Line", 
+        "description": "Proficient in batch scripting, automation, and system management." 
+      },
+      { 
+        "id": 9, 
+        "title": "Netlify", 
+        "description": "Proficient with modern web development tools and technologies." 
+      }
+    ]  
   },
-  "jsProjects": [
+  "projects":
+  { 
+   "pageTitle": "Projects",
+   "description": "Below are some projects that I developed in JavaScript and in Python." ,
+   "pageSubTitleJS": "JavaScript",
+   "pageSubTitlePy": "Python"
+  },
+  "jsProjects": 
+  [
     { 
       "id": 0, 
       "title": "Guess Word", 
@@ -91,22 +147,17 @@
       "repoAddress": "https://github.com/sxr133/Virtual_Island_Survival"
     }
   ],
-  "pages": [
-    { "link": { "text": "Home", "url": "index.html" }, "pageTitle": "", "content": "" },
-    { "link": { "text": "About", "url": "about.html" }, "pageTitle": "About Page", "content": "Hello, I'm Steve Rousseau, a passionate Full Stack Developer. I love tackling complex problems and turning them into beautiful, efficient code. Check out my skills below!" },
-    { "link": { "text": "Skills", "url": "skills.html" }, "pageTitle": "Skills Page", "content": [ { "id": 0, "title": "Python", "description": "I have a strong proficiency in Python and use it in many of my projects." }, { "id": 1, "title": "HTML", "description": "I have a solid understanding of HTML and use it as the backbone of my web projects." }, { "id": 2, "title": "CSS", "description": "I use CSS to create beautiful, responsive web designs." }, { "id": 3, "title": "JavaScript", "description": "I use JavaScript to create dynamic, interactive web applications." }, { "id": 4, "title": "Vue JS", "description": "I use Vue JS framework for building user interfaces." }, { "id": 5, "title": "Java", "description": "I am skilled in Java programming language and have experience in developing applications using Java." }, { "id": 6, "title": "Git", "description": "Proficient in Git version control system." }, { "id": 7, "title": "Command Line", "description": "Proficient in batch scripting, automation, and system management." }, { "id": 8, "title": "Netlify", "description": "Proficient with modern web development tools and technologies." } ] },
-    { "link": { "text": "Projects", "url": "projects.html" }, "pageTitle": "Projects Page" },
-    { "link": { "text": "Contact", "url": "contact.html" }, "pageTitle": "Contact Page", "content": "can put a form and my linkedin profile link" }
-  ],
-  "skills": [
-    { "id": 0, "title": "Python", "description": "I have a strong proficiency in Python and use it in many of my projects." },
-    { "id": 1, "title": "HTML", "description": "I have a solid understanding of HTML and use it as the backbone of my web projects." },
-    { "id": 2, "title": "CSS", "description": "I use CSS to create beautiful, responsive web designs." },
-    { "id": 3, "title": "JavaScript", "description": "I use JavaScript to create dynamic, interactive web applications." },
-    { "id": 4, "title": "Vue JS", "description": "I use Vue JS framework for building user interfaces." },
-    { "id": 5, "title": "Java", "description": "I am skilled in Java programming language and have experience in developing applications using Java." },
-    { "id": 6, "title": "Git", "description": "Proficient in Git version control system." },
-    { "id": 7, "title": "Command Line", "description": "Proficient in batch scripting, automation, and system management." },
-    { "id": 8, "title": "Netlify", "description": "Proficient with modern web development tools and technologies." }
-  ]
+  "contact":
+  { 
+    "link": { "text": "Contact", "url": "contact.html" }, 
+    "pageTitle": "Contact Page", 
+    "content": "can put a form and my linkedin profile link" 
+  },
+  "footer": {
+    "github": "github",
+    "linkedIn": "linkedin",
+    "twitter": "twitter",
+    "facebook": "facebook",
+    "instagram": "instagram"
+  }
 }
