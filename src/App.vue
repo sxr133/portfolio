@@ -1,5 +1,4 @@
 <template>
-
     <section class="py-10 md:py-16">
 
       <div class="container max-w-screen-xl mx-auto px-4">
@@ -27,7 +26,7 @@
           <p class="font-normal text-gray-600 text-md md:text-xl mb-16">I'm a passionate Full Stack developer.  I love tackling complex problems and turning them into
              beautiful, efficient code. I enjoy creating tools that make life easier for people.</p>
 
-          <a href="#" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Hire me</a>
+          <router-link to="/contact" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Contact me</router-link>
         </div>
 
       </div>
@@ -36,13 +35,12 @@
     <skills-content :page="skills" :skills="skills"></skills-content>
     <project-content :page="pages" :jsProjects="jsProjects" :pythonProjects="pythonProjects"></project-content>
     <footer-content :page="footer"></footer-content>
- 
-
 </template>
 
 <script>
 import '../public/css/tailwind.css';
 import data from './assets/data.json';
+import ContactForm from './components/ContactForm.vue';
 import FooterContent from './components/FooterContent.vue';
 import ProjectContent from './components/ProjectContent.vue';
 import SkillsContent from './components/SkillsContent.vue';
@@ -51,7 +49,8 @@ export default {
   components: {
     SkillsContent,
     ProjectContent,
-    FooterContent
+    FooterContent,
+    ContactForm
   },
   data() {
     return {
