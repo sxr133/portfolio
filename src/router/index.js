@@ -11,7 +11,11 @@ const routes = [
   },
   { 
     path: '/contact', 
-    component: ContactForm 
+    component: ContactForm,
+    meta: 
+    { 
+      isContactPage: true 
+    } 
   } // Render the ContactForm within ContactLayout
 ]
 
