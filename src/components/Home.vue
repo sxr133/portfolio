@@ -2,7 +2,8 @@
   <header-content :page="header"></header-content>
   <skills-content :page="skills" :skills="skills"></skills-content>
   <project-content :page="pages" :jsProjects="jsProjects" :pythonProjects="pythonProjects"></project-content>
-  <experience-content></experience-content>
+  <experience-content :page="experience"></experience-content>
+  <education-content :page="education"></education-content>
   <footer-content :page="footer"></footer-content>
 </template>
 
@@ -10,6 +11,7 @@
 import data from '../assets/data.json';
 import ContactForm from './ContactForm.vue';
 import ExperienceContent from './ExperienceContent.vue';
+import EducationContent from './EducationContent.vue';
 import FooterContent from './FooterContent.vue';
 import HeaderContent from './HeaderContent.vue';
 import ProjectContent from './ProjectContent.vue';
@@ -22,6 +24,7 @@ export default {
     SkillsContent,
     ProjectContent,
     ExperienceContent,
+    EducationContent,
     FooterContent,
     ContactForm
   },
@@ -32,6 +35,8 @@ export default {
       pythonProjects: data.pythonProjects,
       pages: data.projects,
       skills: data.skills,
+      experience: data.experience,
+      education: data.education,
       footer: data.footer,
       colorsToggled: false
     }

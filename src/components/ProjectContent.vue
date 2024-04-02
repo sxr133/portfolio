@@ -36,23 +36,23 @@
 
       <h3 class="font-medium text-gray-400 text-3xl md:text-4xl mb-5 pt-10 md:pt-16">{{ page.pageSubTitlePy }}</h3>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div v-for="(project, index) in pythonProjects" :key="index">
-          <div class="bg-gray-50 px-8 py-10 rounded-md">
+    <div v-for="(project, index) in pythonProjects" :key="index">
+        <div class="bg-gray-50 px-8 py-10 rounded-md">
             <h4 class="font-medium text-gray-700 text-lg mb-4">{{ project.title }}</h4>
-            <p class="font-normal text-gray-500 text-md mb-4">{{ project.description }}</p>
-            <div class="relative">
-              <div class="grid grid-cols-2 gap-x-20">
-                <div class="grid grid-rows-auto gap-y-5 justify-items-center items-center">
-                  <img :src="project.giticon" title="GIT Repo" alt="GIT Repo" class="w-20 h-20"> 
-                  <button class="px-7 py-3 md:px-9 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">
-                    <a :href='project.repoAddress' target="_blank">Git Repo</a>
-                  </button>
+            <p class="font-normal h-20 text-gray-500 text-md mb-4">{{ project.description }}</p>
+            <div class="relative h-40 flex flex-col justify-between"> <!-- Set a fixed height for each project -->
+                <div>
+                    <img :src="project.giticon" title="GIT Repo" alt="GIT Repo" class="w-20 h-20"> 
                 </div>
-              </div>
+                <div>
+                    <button class="px-7 py-3 md:px-9 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">
+                        <a :href="project.repoAddress" target="_blank">Git Repo</a>
+                    </button>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
     </div>
   </section>
  

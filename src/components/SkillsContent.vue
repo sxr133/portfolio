@@ -21,6 +21,6 @@
 
 <script>
   export default {
-    props: ['page', 'skills']
+    props: ['page', 'skills'],
   }
 </script>

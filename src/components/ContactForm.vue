@@ -2,35 +2,35 @@
   <header-content :page="header"></header-content>
   <div class="container mx-auto p-8">
     <form @submit.prevent="sendEmail" class="max-w-md mx-auto">
-      <label class="block mb-2">Name</label>
+      <label class="block mb-2">{{ contact.nameLabel }}</label>
       <input 
         type="text" 
         v-model="name"
         name="name"
-        placeholder="Your Name"
+        :placeholder="contact.nameLabel"
         class="w-full px-3 py-2 border rounded-md mb-4"
       >
 
-      <label class="block mb-2">Email</label>
+      <label class="block mb-2">{{ contact.emailLabel }}</label>
       <input 
         type="email" 
         v-model="email"
         name="email"
-        placeholder="Your Email"
+        :placeholder="contact.emailPlaceHolder"
         class="w-full px-3 py-2 border rounded-md mb-4"
       >
 
-      <label class="block mb-2">Message</label>
+      <label class="block mb-2">{{ contact.messageLabel }}</label>
       <textarea 
         name="message"
         v-model="message"
         cols="30" rows="5"
-        placeholder="Message"
+        :placeholder="contact.messageLabel"
         class="w-full px-3 py-2 border rounded-md mb-4"
       ></textarea>
       <div class="grid grid-cols-2 gap-4">
-        <button type="submit" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Send</button>
-        <router-link to="/" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-center text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Return Home</router-link>
+        <button type="submit" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">{{ contact.sendButton }}</button>
+        <router-link to="/" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-center text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">{{ contact.returnButton }}</router-link>
       </div>
     </form>
   </div>
@@ -55,6 +55,7 @@
       return {
         header: data.header,
         footer: data.footer,
+        contact: data.contact,
         name: this.name,
         email: this.email,
         message: this.message

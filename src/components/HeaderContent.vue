@@ -9,25 +9,24 @@
         <div class="ml-auto" v-if="!isContactPage"> <!-- Conditionally show button -->
           <!-- Move the button inside a div to control its positioning -->
 
-          <button @click="downloadFile" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Download Resume</button>
+          <button @click="downloadFile" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">{{ page.download }}</button>
         </div>
       </nav>
 
       <div class="text-center">
         <div class="flex justify-center mb-16 ">
-            <img :src="page.image" alt="Image" class="h-auto max-w-lg transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0" >
+            <img :src="page.image" alt="Image" class="h-auto max-w-sm transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0" >
         </div>
 
         <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">
             {{ page.title }}
         </h6>
 
-        <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">Software Engineer</h1>
+        <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">{{page.position}}</h1>
 
-        <p class="font-normal text-gray-600 text-md md:text-xl mb-16">I'm a passionate Full Stack developer.  I love tackling complex problems and turning them into
-          beautiful, efficient code. I enjoy creating tools that make life easier for people.</p>
+        <p class="font-normal text-gray-600 text-md md:text-xl mb-16">{{ page.description }}</p>
 
-        <router-link  v-if="!isContactPage" to="/contact" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Contact me</router-link>
+        <router-link  v-if="!isContactPage" to="/contact" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">{{ page.contact_me }}</router-link>
       </div>
     </div>
   </section>
@@ -47,9 +46,9 @@
         // Create a link element
         const link = document.createElement('a');
         // Set the href attribute to the path of the file to be downloaded
-        link.href = '/css/stylesheet.css';
+        link.href = '/data/Steve_Rousseau_Resume.docx';
         // Set the download attribute to specify the file name
-        link.setAttribute('download', 'stylesheet.css');
+        link.setAttribute('download', 'Steve_Rousseau_Resume.docx');
         // Append the link to the document body
         document.body.appendChild(link);
         // Programmatically click the link to trigger the download

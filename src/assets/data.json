@@ -1,7 +1,11 @@
 {
   "header": {
     "title": "Steve Rousseau",
-    "image": "/images/profile1.png"
+    "position": "Software Engineer",
+    "description": "I'm a passionate Full Stack developer.  I love tackling complex problems and turning them into beautiful, efficient code. I enjoy creating tools that make life easier for people.",
+    "download": "Download Resume",
+    "contact_me": "Contact Me",
+    "image": "/images/profile.png"
   },
   "skills": 
   {
@@ -145,13 +149,103 @@
       "description": "Text game via console where you try to survive on an island with coconuts and 1 goat and few rocks.", 
       "giticon": "/icons/github.svg", 
       "repoAddress": "https://github.com/sxr133/Virtual_Island_Survival"
+    },
+    { 
+      "id": 1, 
+      "title": "Coffee Machine", 
+      "description": "Text base application via terminal that ask user questions related to the functioning of a basic coffee machine.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/python/tree/main/CoffeeMachine"
+    },
+    { 
+      "id": 2, 
+      "title": "Daily Motivation", 
+      "description": "Application to send out daily motivational quotes via email.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/python/tree/main/DailyMotivation"
+    },
+    { 
+      "id": 3, 
+      "title": "NATO Phonetic Alphabet", 
+      "description": "Application that ask the user to enter a word and the application returns the NATO Phonetic conversion.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/python/tree/main/NATO%2BPhonetic%2BAlphabet%2Bfor%2Bthe%2BCode%2BExercise"
+    },
+    { 
+      "id": 4, 
+      "title": "ISS OverHead Location", 
+      "description": "Application that will retrieve the altitude and longitude of the ISS and send the email if the position is within a range of your current position.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/python/tree/main/issoverhead-start"
+    },
+    { 
+      "id": 5, 
+      "title": "Kanye Quotes", 
+      "description": "Application that will show quotes from Kanye West when the user clicks a button.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/python/tree/main/kanye-quotes-start"
+    },
+    { 
+      "id": 6, 
+      "title": "Password Generator", 
+      "description": "Application that will save to a file, the website credentials for the user.  They have the option to generate a password or enter their own password.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/python/tree/main/password-manager"
+    },
+    { 
+      "id": 7, 
+      "title": "Quizz Game", 
+      "description": "Application that will show the user some sports questions and ask to see if it's true or false.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/python/tree/main/quizzler-app"
     }
   ],
+  "experience":
+  {
+    "pageTitle": "Experience",
+    "description": "Below is a summary of the places I've worked",
+    "title_company": "Company",
+    "title_position": "Position",
+    "title_year": "Year",
+    "company": "Canada Revenue Agency",
+    "company_span": "/ Ottawa",
+    "position_1": "IT Specialist",
+    "position_2": "IT Team Leader",
+    "position_3": "IT Analyst Developer",
+    "year_1": "Apr.2023 - Aug.2023",
+    "year_2": "Jan.2020 - Apr.2023",
+    "year_3": "Feb.2001 - Jan.2020"
+  },
+  "education":
+  {
+    "pageTitle": "Education",
+    "pageDescription": "Below is a summary of the places I studied",
+    "content":
+    [
+      {
+        "id": 0, 
+        "year": "2023 – ", 
+        "program": "Full Stack Software Enginnering Boot Camp." ,
+        "school_name": "GridSchool",
+        "school_link": "https://www.gridschool.org/" 
+      },
+      {
+        "id": 1, 
+        "year": "1999 - 2000", 
+        "program": "Computer Programming with CO-OP option.",
+        "school_name": "Algonquin College of Applied Arts",
+        "school_link": "https://www.algonquincollege.com/"
+      }
+    ]
+  },
   "contact":
   { 
-    "link": { "text": "Contact", "url": "contact.html" }, 
-    "pageTitle": "Contact Page", 
-    "content": "can put a form and my linkedin profile link" 
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "emailPlaceHolder": "Your Email",
+    "messageLabel": "Message", 
+    "sendButton": "Send",
+    "returnButton": "Return Home"
   },
   "footer": {
     "github": "github",
