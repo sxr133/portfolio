@@ -9,7 +9,7 @@
         <div class="ml-auto" v-if="!isContactPage"> <!-- Conditionally show button -->
           <!-- Move the button inside a div to control its positioning -->
 
-          <button @click="downloadFile" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">{{ page.download }}</button>
+          <button @click="downloadFile" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">{{page.download}}</button>
         </div>
       </nav>
 
