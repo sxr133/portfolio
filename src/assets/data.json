@@ -56,6 +56,16 @@
         "id": 9, 
         "title": "Netlify", 
         "description": "Proficient with modern web development tools and technologies." 
+      },
+      { 
+        "id": 9, 
+        "title": "Firebase", 
+        "description": "My expertise in Firebase empowers me to harness its full potential, delivering innovative solutions." 
+      },
+      { 
+        "id": 9, 
+        "title": "C#", 
+        "description": "With a strong foundation in object-oriented programming principles, coupled with a passion for innovation, I am skilled in leveraging the power of C# to develop dynamic applications accross domains." 
       }
     ]  
   },

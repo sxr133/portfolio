@@ -1,8 +1,8 @@
 <template>
   <header-content :page="header"></header-content>
+  <experience-content :page="experience"></experience-content>
   <skills-content :page="skills" :skills="skills"></skills-content>
   <project-content :page="pages" :jsProjects="jsProjects" :pythonProjects="pythonProjects"></project-content>
-  <experience-content :page="experience"></experience-content>
   <education-content :page="education"></education-content>
   <footer-content :page="footer"></footer-content>
 </template>

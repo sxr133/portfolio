@@ -3,18 +3,15 @@
 
     <div class="container max-w-screen-xl mx-auto px-4">
 
-      <nav class="flex items-right justify-between mb-40">
-        <!--img src="/images/navbar-logo.png" alt="Logo" @click="toggleColors"-->
-
-        <div class="ml-auto" v-if="!isContactPage"> <!-- Conditionally show button -->
+      <nav class="text-center">
+        <div class="ml-auto mb-5" v-if="!isContactPage"> <!-- Conditionally show button -->
           <!-- Move the button inside a div to control its positioning -->
-
           <button @click="downloadFile" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">{{page.download}}</button>
         </div>
       </nav>
 
       <div class="text-center">
-        <div class="flex justify-center mb-16 ">
+        <div class="flex justify-center mb-5 ">
             <img :src="page.image" alt="Image" class="h-auto max-w-sm transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0" >
         </div>
 
