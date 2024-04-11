@@ -11,8 +11,8 @@
       </nav>
 
       <div class="text-center">
-        <div class="flex justify-center mb-5 ">
-            <img :src="page.image" alt="Image" class="h-auto max-w-sm transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0" >
+        <div class="flex justify-center mb-5 md:mb-10">
+            <img :src="page.image" alt="Image" class="h-auto max-w-sm rounded-full transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 md:px-10 md:py-10 md:pt-10 md:pb-10" >
         </div>
 
         <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">

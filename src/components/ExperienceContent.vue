@@ -8,7 +8,7 @@
                 
                 <div class="relative overflow-x-auto">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <thead class="text-xs text-gray-700 uppercase bg-slate-600 dark:text-white">
                             <tr>
                                 <th scope="col" class="px-6 py-3">
                                     {{ page.title_company }}
@@ -22,7 +22,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="bg-white border-b dark:bg-gray-500 dark:border-gray-400">
+                            <tr class="border-b dark:bg-slate-300 dark:border-gray-400">
                                 <th scope="row" class="px-6 py-4 font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.company }}
                                     <span class="font-normal text-black-300">{{ page.company_span }}</span>
@@ -35,7 +35,7 @@
                                 </td>
 
                             </tr>
-                            <tr class="bg-white border-b dark:bg-gray-500 dark:border-gray-400">
+                            <tr class="border-b bg-slate-300 dark:border-gray-400">
                                 <th scope="row" class="px-6 py-4 font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.company }}
                                     <span class="font-normal text-black-300">{{ page.company_span }}</span>
@@ -48,7 +48,7 @@
                                 </td>
                 
                             </tr>
-                            <tr class="bg-whiteborder-b dark:bg-gray-500 dark:border-gray-400">
+                            <tr class="bg-whiteborder-b bg-slate-300 dark:border-gray-400">
                                 <th scope="row" class="px-6 py-4 font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.company }}
                                     <span class="font-normal text-black-300">{{ page.company_span }}</span>
