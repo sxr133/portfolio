@@ -20,12 +20,12 @@
       { 
         "id": 2, 
         "title": "HTML", 
-        "description": "I have a solid understanding of HTML and use it as the backbone of my web projects." 
+        "description": "I have a solid understanding of HTML5 and use it as the backbone of my web projects." 
       },
       { 
         "id": 3, 
-        "title": "CSS", 
-        "description": "I use CSS to create beautiful, responsive web designs." 
+        "title": "Stylesheet", 
+        "description": "I am familiar with using CSS3 and Tailwind to create beautiful, responsive web designs." 
       },
       { 
         "id": 4, 
@@ -45,17 +45,17 @@
       { 
         "id": 7, 
         "title": "Git", 
-        "description": "Proficient in Git version control system." 
+        "description": "I am proficient in Git version control system." 
       },
       { 
         "id": 8, 
         "title": "Command Line", 
-        "description": "Proficient in batch scripting, automation, and system management." 
+        "description": "I am proficient in batch scripting, automation, and system management." 
       },
       { 
         "id": 9, 
         "title": "Netlify", 
-        "description": "Proficient with modern web development tools and technologies." 
+        "description": "I am proficient with modern web development tools and technologies." 
       },
       { 
         "id": 9, 
@@ -66,6 +66,21 @@
         "id": 9, 
         "title": "C#", 
         "description": "With a strong foundation in object-oriented programming principles, coupled with a passion for innovation, I am skilled in leveraging the power of C# to develop dynamic applications accross domains." 
+      },
+      { 
+        "id": 10, 
+        "title": "Cobol", 
+        "description": "I am skilled in Mainframe Programming and have experience in developing applications using batch and online(CICS) in addition to cob2Java integration." 
+      },
+      { 
+        "id": 11, 
+        "title": ".NET", 
+        "description": "I developed enterprise applications using the .NET Framework." 
+      },
+      { 
+        "id": 12, 
+        "title": "SQL Server", 
+        "description": "I maintained, created and retgrieved information from relational databases.  It also allows for accessing, updating, manipulating, inserting and modify data efficiently." 
       }
     ]  
   },
@@ -216,12 +231,16 @@
     "description": "Below is a summary of the places I've worked",
     "title_company": "Company",
     "title_position": "Position",
+    "title_description": "Description",
     "title_year": "Year",
     "company": "Canada Revenue Agency",
     "company_span": "/ Ottawa",
     "position_1": "IT Specialist",
     "position_2": "IT Team Leader",
     "position_3": "IT Analyst Developer",
+    "description_1": "Provided recommendations, demonstration, and presentations to colleagues, clients and management.  Coached colleagues and reviewed their deliverables, led a technical team.",
+    "description_2": "Managed a team composed of employees at various levels, and/or contractors and business specialist; developed, with employees, learning plans, performance expectation and appraisal documents, good client relations ",
+    "description_3": "Tested IT solutions and products, programmed IT solutions; wrote technical specifications and documentations, identified and resolved problems; reviewed colleagues deliverables.",
     "year_1": "Apr.2023 - Aug.2023",
     "year_2": "Jan.2020 - Apr.2023",
     "year_3": "Feb.2001 - Jan.2020"

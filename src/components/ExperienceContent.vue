@@ -17,6 +17,9 @@
                                     {{ page.title_position }}
                                 </th>
                                 <th scope="col" class="px-6 py-3">
+                                    {{ page.title_description }}
+                                </th>
+                                <th scope="col" class="px-6 py-3">
                                     {{ page.title_year }}
                                 </th>
                             </tr>
@@ -29,6 +32,9 @@
                                 </th>
                                 <td class="px-6 py-4 font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.position_1 }}
+                                </td>
+                                <td class="px-6 py-4 font-medium text-black-900 whitespace-nowrap text-wrap dark:text-black">
+                                    {{ page.description_1 }}
                                 </td>
                                 <td class="px-6 py-4 font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.year_1 }}
@@ -43,6 +49,9 @@
                                 <td class="px-6 py-4font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.position_2 }}
                                 </td>
+                                <td class="px-6 py-4 font-medium text-black-900 whitespace-nowrap text-wrap dark:text-black">
+                                    {{ page.description_2 }}
+                                </td>
                                 <td class="px-6 py-4 font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.year_2 }}
                                 </td>
@@ -55,6 +64,9 @@
                                 </th>
                                 <td class="px-6 py-4 font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.position_3 }}
+                                </td>
+                                <td class="px-6 py-4 font-medium text-black-900 whitespace-nowrap text-wrap dark:text-black">
+                                    {{ page.description_3 }}
                                 </td>
                                 <td class="px-6 py-4 font-medium text-black-900 whitespace-nowrap dark:text-black">
                                     {{ page.year_3 }}

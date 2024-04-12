@@ -10,8 +10,8 @@
 <script>
 import data from '../assets/data.json';
 import ContactForm from './ContactForm.vue';
-import ExperienceContent from './ExperienceContent.vue';
 import EducationContent from './EducationContent.vue';
+import ExperienceContent from './ExperienceContent.vue';
 import FooterContent from './FooterContent.vue';
 import HeaderContent from './HeaderContent.vue';
 import ProjectContent from './ProjectContent.vue';
@@ -19,6 +19,10 @@ import SkillsContent from './SkillsContent.vue';
 import '/public/css/tailwind.css';
 
 export default {
+  name:'App',
+  mounted(){
+    this.setFavicon();
+  },
   components: {
     HeaderContent,
     SkillsContent,
@@ -52,6 +56,22 @@ export default {
         console.log("remove dark-mode");
         rootElement.classList.remove('dark-mode');
       }
+    },
+    setFavicon() {
+      // Find the existing favicon link element
+      const favicon = document.querySelector('link[rel="icon"]');
+
+      // Create a new link element for the favicon with your logo
+      const newFavicon = document.createElement('link');
+      newFavicon.rel = 'icon';
+      newFavicon.type = 'image/png'; // Change the type if your logo is not in PNG format
+      newFavicon.href = './images/logo-white.svg'; // Adjust the path to your logo file
+
+      // Replace the existing favicon with the new one
+      if (favicon) {
+        document.head.removeChild(favicon);
+      }
+      document.head.appendChild(newFavicon);
     }
   }
 }
