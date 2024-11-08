@@ -80,7 +80,12 @@
       { 
         "id": 12, 
         "title": "SQL Server", 
-        "description": "I maintained, created and retgrieved information from relational databases.  It also allows for accessing, updating, manipulating, inserting and modify data efficiently." 
+        "description": "Proficient in working with SQL Server for database management, maintenance, and optimization, including creating tables, managing security, and ensuring data integrity." 
+      },
+      { 
+        "id": 13, 
+        "title": "SQL Queries", 
+        "description": "Experienced in writing and optimizing complex SQL queries for data retrieval, manipulation, and reporting. Skilled in using SELECT, INSERT, UPDATE, DELETE, JOIN, and other SQL operations to work with relational databases efficiently." 
       }
     ]  
   },
@@ -89,7 +94,8 @@
    "pageTitle": "Projects",
    "description": "Below are some projects that I developed in JavaScript and in Python." ,
    "pageSubTitleJS": "JavaScript",
-   "pageSubTitlePy": "Python"
+   "pageSubTitlePy": "Python",
+   "pageSubTitleFinal": "Final Project"
   },
   "jsProjects": 
   [
@@ -223,6 +229,18 @@
       "description": "Application that will show the user some sports questions and ask to see if it's true or false.", 
       "giticon": "/icons/github.svg", 
       "repoAddress": "https://github.com/sxr133/python/tree/main/quizzler-app"
+    }
+  ],
+  "finalProject": 
+  [
+    { 
+      "id": 0, 
+      "title": "Sporting Statistics (Beta Version)", 
+      "description": "Website that gives statistical information on Professional Sport Teams.", 
+      "giticon": "/icons/github.svg", 
+      "repoAddress": "https://github.com/sxr133/Docker",
+      "demoicon": "/icons/javascript.svg", 
+      "demoAddress":"https://sportingstats.ca"
     }
   ],
   "experience":

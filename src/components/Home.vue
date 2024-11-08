@@ -2,7 +2,7 @@
   <header-content :page="header"></header-content>
   <experience-content :page="experience"></experience-content>
   <skills-content :page="skills" :skills="skills"></skills-content>
-  <project-content :page="pages" :jsProjects="jsProjects" :pythonProjects="pythonProjects"></project-content>
+  <project-content :page="pages" :jsProjects="jsProjects" :pythonProjects="pythonProjects" :finalProject="finalProject"></project-content>
   <education-content :page="education"></education-content>
   <footer-content :page="footer"></footer-content>
 </template>
@@ -37,6 +37,7 @@ export default {
       header: data.header,
       jsProjects: data.jsProjects,
       pythonProjects: data.pythonProjects,
+      finalProject: data.finalProject,
       pages: data.projects,
       skills: data.skills,
       experience: data.experience,
