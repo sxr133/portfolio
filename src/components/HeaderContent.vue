@@ -43,9 +43,9 @@
         // Create a link element
         const link = document.createElement('a');
         // Set the href attribute to the path of the file to be downloaded
-        link.href = '/data/Steve_Rousseau_Resume.docx';
+        link.href = '/data/Steve_Rousseau.docx';
         // Set the download attribute to specify the file name
-        link.setAttribute('download', 'Steve_Rousseau_Resume.docx');
+        link.setAttribute('download', 'Steve_Rousseau.docx');
         // Append the link to the document body
         document.body.appendChild(link);
         // Programmatically click the link to trigger the download
